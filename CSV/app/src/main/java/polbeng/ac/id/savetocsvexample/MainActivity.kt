@@ -14,6 +14,7 @@ import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 import java.io.IOException
+import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
     var baseDir = Environment.getExternalStorageDirectory().absolutePath
